@@ -1,0 +1,16 @@
+occupation_index,total,poor_count,poor_rate,occupation
+14.0,3216,523,0.163,Writer
+9.0,3375,551,0.163,Mechanic
+4.0,3375,532,0.158,Engineer
+1.0,3325,519,0.156,Architect
+7.0,7225,1106,0.153,Lawyer
+10.0,3282,501,0.153,Media_Manager
+0.0,3345,508,0.152,Accountant
+8.0,3112,468,0.15,Manager
+6.0,3287,490,0.149,Journalist
+13.0,3316,492,0.148,Teacher
+5.0,3240,474,0.146,Entrepreneur
+3.0,3318,477,0.144,Doctor
+12.0,3317,461,0.139,Scientist
+11.0,3217,448,0.139,Musician
+2.0,3275,456,0.139,Developer
