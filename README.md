@@ -99,3 +99,16 @@ with open("models/label_encoder.pkl", "wb") as f:
 from sqlalchemy import create_engine
 import psycopg2
 ```
+Пример подключения:
+```python
+engine = create_engine("postgresql+psycopg2://postgres:qwerty@localhost:5432/postgres")
+conn = engine.connect()
+```
+Пример выгрузки DataFrame в PostgreSQL:
+```python
+df_clean.to_sql("credit_data_cleaned", engine, if_exists="replace", index=False)
+```
+Пример загрузки данных из таблицы:
+```python
+data = pd.read_sql("SELECT * FROM credit_data", conn)
+```
